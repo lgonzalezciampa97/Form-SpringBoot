@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+*{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+	background-color: #DFDFDF;
+	margin: 20px;
+	margin-bottom: 0px;
+}
+
+#tittle{
+	margin: 0 auto;
+	text-align: center;
+	font-size: 36px;
+	background-color: #3969E6;
+	color: white;
+	width: 350px;
+	height: 60px;
+	padding-top: 10px;
+	border-radius: 15px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+#formTittle{
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 28px;
+	color: white;
+	width: 350px;
+	height: 60px;
+	background-color: #05B5F8;
+}
+
+#formTittle p{
+	margin-top: 15px;
+}
+
+.form{
+	display: flex;
+	margin: 0 auto;
+	width: 350px;
+	background-color: #3F73FC;
+	border-radius: 15px;
+	border-top-right-radius: 0px;
+	border-top-left-radius: 0px;
+}
+
+.form form{
+	display: flex;
+	flex-direction: column;
+	margin: 10px auto;
+}
+
+.form form p{
+	display: flex;
+	justify-content: center;
+    font-size: 18px;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+.form form label{
+	display: flex;
+	margin: 3px;
+	justify-content: center;
+    font-size: 18px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.userBox{
+	display: flex;
+    padding: 3px;
+    margin: 3px auto;
+    width: 280px;
+    justify-content: center;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+}
+
+.userBoxRol{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: baseline;
+    flex-direction: row;
+    width: 100px;
+}
+
+.userBoxRol input{
+	background-color: #05B5F8;
+	color: white;
+}
+
+.genre{
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+    flex-direction: row-reverse;
+}
+
+.errors{
+	display: flex;
+    margin: 0px auto;
+    width: 280px;
+    justify-content: center;
+    font-size: 16px;
+    text-align: center;
+    color: #620202;
+    font-weight: bolder;
+}
+
+#submit{
+	display: flex;
+	margin: 20px auto 5px;
+	font-size: 22px;
+    width: 100px;
+    text-align: center;
+    justify-content: center;
+    height: 30px;
+    background-color: #05B5F8;
+    color: white;
+    cursor: pointer;
+    border: none;
+    transition: 0.5s;
+}
+
+#submit:hover{
+	background-color: #090FFB;
+}
+
+.footer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 0px;
+	margin-top: 50px;
+}
